@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<description>导入项目中的applicationContext文件列表</description>
+
+	
+	<!-- 邮件 -->
+	<!-- <import resource="classpath:com/techstar/modules/mail/applicationContext.xml" /> -->
+
+	<!-- 定时任务 -->
+	<import resource="classpath:task/spring-task.xml" />
+	
+	
+
+</beans>
